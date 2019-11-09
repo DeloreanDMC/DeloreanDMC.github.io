@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('PressStart2P.ttf') format('truetype');
+    text-align: center;
+  }
+  html, body {
+    height: 100%;
+    margin: 0px;
+    font-family: 'PressStart2P', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+  .button {
+    display: inline-block;
+    height: 45%;
+    width: 98%;
+    background-color: #222;
+    position: relative;
+  }
+  .button_label {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 50%;
+    margin-top: -6px;
+  }
+  #player_id {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    margin-top: -8px;
+    color: #777;
+  }

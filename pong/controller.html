@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript"
+          src="https://www.airconsole.com/api/airconsole-1.7.0.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
+<link rel="stylesheet" href="controller.css">    
+</head>
+    <body onload="init()">
+    <div style="height: 8%"></div>
+    <div class=button ontouchstart="move(-50)"
+        ontouchend="move(0)" 
+        onmousedown="move(-50)" 
+        onmouseup="move(0)">
+        <div class="button_label">UP</div>
+    </div>
+    <div style="height: 8%"></div>
+    <div class=button ontouchstart="move(50)" 
+        ontouchend="move(0)" 
+        onmousedown="move(50)" 
+        onmouseup="move(0)">
+    <div class="button_label">DOWN</div>
+    </div>
+    <div id="player_id">Эта игра для 2 игроков!</div>
+    </body>
+</html>
