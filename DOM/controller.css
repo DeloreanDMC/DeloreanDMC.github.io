@@ -1,0 +1,14 @@
+  html, body {
+    height: 100%;
+    margin: 0px;
+    color: rgb(129, 40, 40);
+    text-align: center;
+    background-color: rgb(238, 189, 148);
+  }
+  .button {
+    display: inline-block;
+    height: 45%;
+    width: 98%;
+    background-color: rgb(175, 87, 52);
+    position: relative;
+  }

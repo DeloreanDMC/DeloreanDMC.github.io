@@ -1,0 +1,15 @@
+
+  html, body {
+    height: 100%;
+    margin: 0px;
+    color: white;
+    text-align: center;
+  }
+  .game {
+    background-color: rgb(187, 147, 94);
+    top: 50%;
+    margin-top: -25%;
+    padding-bottom: 50%;
+    overflow: hidden;
+    position: relative;
+  }

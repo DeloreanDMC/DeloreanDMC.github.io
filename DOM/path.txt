@@ -1,0 +1,7 @@
+http://www.airconsole.com/#
+
+http://192.168.0.1:8080/game/
+
+http://www.airconsole.com/#http://192.168.1.39:8887/DOM/
+http://www.airconsole.com/simulator/#http://192.168.1.39:8887/DOM/
+simulator/
