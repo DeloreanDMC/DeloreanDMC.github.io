@@ -20,6 +20,10 @@ var Rectangle = function (_React$Component) {
             _this.setState({ color: "#00FFFF" });
         };
 
+        _this.swiped2 = function () {
+            _this.setState({ color: "#0044FF" });
+        };
+
         _this.state = { color: "#0044FF" };
         return _this;
     }
@@ -44,7 +48,7 @@ var Rectangle = function (_React$Component) {
                 { style: box },
                 React.createElement(
                     "button",
-                    { style: btn, onTouchStart: this.swiped, onClick: this.swiped },
+                    { style: btn, onTouchStart: this.swiped, onTouchEnd: this.swiped2 },
                     "\u0414\u043E\u0433\u043E\u043D\u0438 \u043C\u0435\u043D\u044F"
                 )
             );
